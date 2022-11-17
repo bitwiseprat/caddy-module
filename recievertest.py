@@ -7,7 +7,7 @@ channel = connection.channel()
 
 method , properties , body = channel.basic_get('my_queue')      # receiving data from the sender queue 
 
-#message = format(body)
+message = format(body)
 #message = message[2:-1]     #formatting data for removing extra characters added by rabbitmq
 
 print(message) 
