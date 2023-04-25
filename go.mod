@@ -1,4 +1,4 @@
-module github.com/bitwiseprat/caddy-test
+module https://github.com/bitwiseprat/caddy-module
 
 go 1.20.3
 
